@@ -5,7 +5,7 @@ def line(deli)
   else 
     deli.each do |x|
     c = "The line is currently:"
-    y = x.index + 1
+    y = deli.index(x) + 1
     c.push(" #{y}. #{x}")
     puts c
     end
