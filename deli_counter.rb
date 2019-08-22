@@ -3,10 +3,11 @@ def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
   else 
-    print "The line is currently:"
     deli.each do |x|
+    c = "The line is currently:"
     y = x.index + 1
-    print " #{y}. #{x}"
+    c.push(" #{y}. #{x}")
+    puts c
     end
   end
 end
