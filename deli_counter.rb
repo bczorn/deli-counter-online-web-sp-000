@@ -3,8 +3,9 @@ def line(deli)
   if deli.size == 0
     puts "The line is currently empty."
   else 
-    x = deli.size
-    puts "There are currently #{x} people in line."
+    deli.each do |x|
+    y = x.index + 1
+    puts "The line is currently #{y}. #{x}"
   end
 end
 
