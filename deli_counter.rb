@@ -14,11 +14,12 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  if deli.size == 1
+  if katz_deli.size == 1
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    x = deli.size
-    puts "Welcome, #{name}. You are number #{x} in line."
+    katz_deli.each do |x|
+    y = katz_deli.index + 1
+    puts "Welcome, #{x}. You are number #{y} in line."
   end
 end
 
