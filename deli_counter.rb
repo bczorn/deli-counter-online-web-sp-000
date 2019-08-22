@@ -7,6 +7,7 @@ def line(deli)
     deli.each do |x|
     y = x.index + 1
     print " #{y}. #{x}"
+    end
   end
 end
 
