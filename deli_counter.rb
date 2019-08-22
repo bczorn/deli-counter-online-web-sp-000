@@ -18,7 +18,7 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     katz_deli.each do |x|
-    y = katz_deli.index + 1
+    y = katz_deli.index(x) + 1
     puts "Welcome, #{x}. You are number #{y} in line."
   end
   end
