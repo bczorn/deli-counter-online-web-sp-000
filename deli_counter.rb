@@ -7,7 +7,7 @@ def line(deli)
     c = ["The line is currently:"]
     y = deli.index(x) + 1
     c.push(" #{y}. #{x}")
-    puts c
+    c.join
     end
   end
 end
