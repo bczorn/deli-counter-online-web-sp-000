@@ -5,6 +5,7 @@ def line(deli)
   else 
     x = deli.size
     "There are currently #{x} people in line"
+  end
 end
 
 def take_a_number
