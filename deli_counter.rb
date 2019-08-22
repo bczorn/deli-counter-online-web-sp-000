@@ -14,12 +14,8 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  if name.size > 1
-  name.each do |x|
-    y = katz_deli.index(x) + 1
-    puts "Welcome, #{x}. You are number #{y} in line."
-  end
-end
+  x = katz_deli.index(name) + 1
+  puts "Welcome, #{name}. You are number #{x} in line."
 end
 
 def now_serving
