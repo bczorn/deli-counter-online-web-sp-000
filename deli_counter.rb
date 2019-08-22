@@ -21,6 +21,7 @@ def take_a_number(katz_deli, name)
     y = katz_deli.index + 1
     puts "Welcome, #{x}. You are number #{y} in line."
   end
+  end
 end
 
 def now_serving
